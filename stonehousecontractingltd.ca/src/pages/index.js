@@ -3,11 +3,10 @@ import { Helmet } from "react-helmet"
 
 import Nav from "components/Nav";
 import Footer from "components/Footer";
-// import Carousel from "components/Carousel";
+import Card from "components/Card";
 
 
-// import images from "pages/gallery/images";
-
+import hero from "images/hero.jpg";
 import "./styles.scss";
 
 const Index = () =>
@@ -23,9 +22,29 @@ const Index = () =>
 		</Helmet>
 		<Nav />
 		<main id="home" role="main">
-			{/* <Carousel>
-					{images.map(({ original }) => <img src={original} />)}
-				</Carousel> */}
+			<section id="hero">
+				<img src={hero} />
+				<a id="cta" href="/services">
+					See More
+				</a>
+			</section>
+			<section id="services">
+				<Card>
+					build
+				</Card>
+				<Card>
+					design
+				</Card>
+				<Card>
+					landscaping
+				</Card>
+			</section>
+			<section id="samples" style={{
+				background: "pink",
+				height: 100,
+			}}>
+				Preview gallery images here
+			</section>
 		</main>
 		<Footer />
 	</>;
