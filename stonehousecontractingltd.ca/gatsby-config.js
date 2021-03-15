@@ -1,9 +1,11 @@
+const path = require("path");
+
 module.exports = {
 	siteMetadata: {
 		title: "stonehousecontractingltd.ca",
 	},
 	plugins: [
-		"gatsby-plugin-styled-components",
+		"gatsby-plugin-sass",
 		"gatsby-plugin-gatsby-cloud",
 		"gatsby-plugin-image",
 		{
@@ -29,6 +31,16 @@ module.exports = {
 				path: "./src/images/",
 			},
 			__key: "images",
+		},
+		{
+			resolve: "gatsby-plugin-root-import",
+			options: {
+				src: path.join(__dirname, "src"),
+				components: path.join(__dirname, "src/components"),
+				images: path.join(__dirname, "src/images"),
+				pages: path.join(__dirname, "src/pages"),
+				styles: path.join(__dirname, "src/styles")
+			}
 		},
 	],
 };
