@@ -2,16 +2,16 @@ import React from "react";
 
 import "./styles.scss";
 
+const year = new Date().getFullYear();
+
 const Footer = () =>
 	<footer id="footer" role="contentinfo">
-		<div>
+		<div id="footer-content-wrapper">
 			<p>
-				Stone House Contracting Ltd.
+				© Stone House Contracting {year}
 			</p>
-		</div>
-		<div>
 			<p>
-				Website designed and developed by <a href="https://richardantao.com" target="_blank" rel="noopener noreferrer">Richard Antao</a>
+				Designed and developed by <a href="https://richardantao.com" target="_blank" rel="noopener noreferrer">Richard Antao</a>
 			</p>
 		</div>
 	</footer>;
