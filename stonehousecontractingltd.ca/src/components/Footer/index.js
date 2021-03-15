@@ -3,7 +3,7 @@ import React from "react";
 import "./styles.scss";
 
 const Footer = () =>
-	<footer id="footer" role="content-info">
+	<footer id="footer" role="contentinfo">
 		<div>
 			<p>
 				Stone House Contracting Ltd.

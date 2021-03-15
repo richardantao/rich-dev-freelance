@@ -1,5 +1,8 @@
+@import "styles/global";
+
 #footer {
 	align-items: center;
+	background-color: $accent-color;
 	bottom: 0;
 	display: flex;
 	flex: 1;
@@ -7,11 +10,14 @@
 	padding: 0 4rem;
 
 	div {
-		background-color: green;
+		align-items: center;
+		min-height: 4rem;
+		display: flex;
+		justify-content: center;
 	}
 
-	a {
-		text-decoration: none;
+	p, a {
+		color: $secondary-color;
 	}
 
 	@media screen and (min-width: 576px) {
