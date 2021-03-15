@@ -20,7 +20,18 @@ const Services = () =>
 		</Helmet>
 		<Nav />
 		<main id="services" role="main">
-			Services Page
+			<section id="design">
+				<h2>Design</h2>
+			</section>
+			<section id="build">
+				<h2>Build</h2>
+			</section>
+			<section id="landscaping">
+				<h2>Landscaping</h2>
+			</section>
+			<section id="gallery">
+				<a href="/gallery">See Gallery</a>
+			</section>
 		</main>
 		<Footer />
 	</>
