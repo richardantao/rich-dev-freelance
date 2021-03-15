@@ -20,17 +20,33 @@ const Services = () =>
 		</Helmet>
 		<Nav />
 		<main id="services" role="main">
+			<section id="intro">
+				<h1>Services</h1>
+				<h2>What We Offer</h2>
+				<p>
+					Maecenas finibus nibh id ipsum ornare, eget volutpat nisi commodo. Aliquam condimentum vel mi vel ullamcorper.
+					Proin rhoncus sapien quis dolor convallis efficitur. Vestibulum imperdiet sagittis molestie. In hac habitasse platea dictumst.
+					Mauris pretium tortor vel augue vulputate malesuada. Praesent sit amet risus urna.
+				</p>
+			</section>
 			<section id="design">
-				<h2>Design</h2>
+				<h3>Design</h3>
+				<p>Pellentesque quis odio maximus, sagittis nibh a, varius dolor. Nam elit orci, tempus nec metus gravida, volutpat finibus orci. Mauris id velit velit. Maecenas ornare nisl nec nulla dignissim, vel dictum leo imperdiet. Duis iaculis facilisis mi, sit amet dapibus lacus euismod ac. Quisque tempor purus at auctor malesuada. Ut ut purus in massa malesuada molestie. Mauris lorem felis, congue quis eleifend non, dignissim nec ligula. Donec interdum pharetra turpis a tempus. Donec eu lacinia nunc.</p>
+				<p>Fusce a nulla libero. Aenean ullamcorper massa nec lacus vehicula viverra. Cras sit amet rutrum enim, vitae auctor purus. Nunc sit amet commodo velit. Phasellus facilisis rhoncus erat et hendrerit. Sed malesuada ligula ac lectus facilisis, eu gravida metus vulputate. Ut vitae placerat libero.</p>
 			</section>
 			<section id="build">
-				<h2>Build</h2>
+				<h3>Build</h3>
+				<p>Pellentesque quis odio maximus, sagittis nibh a, varius dolor. Nam elit orci, tempus nec metus gravida, volutpat finibus orci. Mauris id velit velit. Maecenas ornare nisl nec nulla dignissim, vel dictum leo imperdiet. Duis iaculis facilisis mi, sit amet dapibus lacus euismod ac. Quisque tempor purus at auctor malesuada. Ut ut purus in massa malesuada molestie. Mauris lorem felis, congue quis eleifend non, dignissim nec ligula. Donec interdum pharetra turpis a tempus. Donec eu lacinia nunc.</p>
+				<p>Fusce a nulla libero. Aenean ullamcorper massa nec lacus vehicula viverra. Cras sit amet rutrum enim, vitae auctor purus. Nunc sit amet commodo velit. Phasellus facilisis rhoncus erat et hendrerit. Sed malesuada ligula ac lectus facilisis, eu gravida metus vulputate. Ut vitae placerat libero.</p>
 			</section>
 			<section id="landscaping">
-				<h2>Landscaping</h2>
+				<h3>Landscaping</h3>
+				<p>Pellentesque quis odio maximus, sagittis nibh a, varius dolor. Nam elit orci, tempus nec metus gravida, volutpat finibus orci. Mauris id velit velit. Maecenas ornare nisl nec nulla dignissim, vel dictum leo imperdiet. Duis iaculis facilisis mi, sit amet dapibus lacus euismod ac. Quisque tempor purus at auctor malesuada. Ut ut purus in massa malesuada molestie. Mauris lorem felis, congue quis eleifend non, dignissim nec ligula. Donec interdum pharetra turpis a tempus. Donec eu lacinia nunc.</p>
+				<p>Fusce a nulla libero. Aenean ullamcorper massa nec lacus vehicula viverra. Cras sit amet rutrum enim, vitae auctor purus. Nunc sit amet commodo velit. Phasellus facilisis rhoncus erat et hendrerit. Sed malesuada ligula ac lectus facilisis, eu gravida metus vulputate. Ut vitae placerat libero.</p>
 			</section>
 			<section id="gallery">
 				<a href="/gallery">See Gallery</a>
+				*Show a preview of the gallery*
 			</section>
 		</main>
 		<Footer />
