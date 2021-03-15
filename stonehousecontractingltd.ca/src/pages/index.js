@@ -24,9 +24,16 @@ const Index = () =>
 		<main id="home" role="main">
 			<section id="hero">
 				<img src={hero} />
-				<a id="cta" href="/services">
-					See More
-				</a>
+				<div id="pitch">
+					<div className="pitch-content">
+						<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+					</div>
+					<div className="pitch-content">
+						<a id="cta" href="/services">
+							See More
+						</a>
+					</div>
+				</div>
 			</section>
 			<section id="services">
 				<Card>
