@@ -6,7 +6,14 @@ import Footer from "components/Footer";
 import Card from "components/Card";
 
 
-import hero from "images/hero.jpg";
+import hero from "images/home-hero.jpg";
+import design from "images/home-design.jpg";
+import build from "images/home-build.jpg";
+import landscaping from "images/home-landscape.jpg";
+import designIcon from "images/design-icon.png";
+import buildIcon from "images/build-icon.png";
+import landscapeIcon from "images/landscape-icon.png";
+
 import "./styles.scss";
 
 const Index = () =>
@@ -36,14 +43,29 @@ const Index = () =>
 				</div>
 			</section>
 			<section id="services">
-				<Card>
-					build
+				<Card src={design}>
+					<a href="/services#design">
+						<img src={designIcon} alt="Design Icon" className="icon" />
+						<p>
+							Design
+						</p>
+					</a>
 				</Card>
-				<Card>
-					design
+				<Card src={build}>
+					<a href="/services#build">
+						<img src={buildIcon} alt="Build Icon" className="icon" />
+						<p>
+							Build
+						</p>
+					</a>
 				</Card>
-				<Card>
-					landscaping
+				<Card src={landscaping}>
+					<a href="/services#landscaping">
+						<img src={landscapeIcon} alt="Landscape Icon" className="icon" />
+						<p>
+							Landscaping
+						</p>
+					</a>
 				</Card>
 			</section>
 			<section id="samples" style={{
