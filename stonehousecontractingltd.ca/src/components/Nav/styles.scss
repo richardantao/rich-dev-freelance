@@ -2,7 +2,6 @@
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem;
 
 	a {
 		color: black;
@@ -13,6 +12,11 @@
 		&:hover, &:focus, &:visited {
 			color: black;
 		}
+	}
+
+	#logo {
+		height: 3rem;
+		width: 3rem;
 	}
 
 	@media screen and (min-width: 576px) {
