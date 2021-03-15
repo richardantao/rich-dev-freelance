@@ -2,7 +2,9 @@ const path = require("path");
 
 module.exports = {
 	siteMetadata: {
-		title: "stonehousecontractingltd.ca",
+		title: "Stone House Contracting",
+		siteUrl: `https://stonehousecontractingltd.ca`,
+		description: "Showcase website for Stone House Contracting",
 	},
 	plugins: [
 		"gatsby-plugin-sass",
