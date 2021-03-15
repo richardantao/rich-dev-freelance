@@ -1,16 +1,13 @@
-import React from "react"
+import React from "react";
 import { Helmet } from "react-helmet"
 
 import Nav from "components/Nav";
 import Footer from "components/Footer";
-// import Carousel from "components/Carousel";
 
-
-// import images from "pages/gallery/images";
-
+import "styles/global.scss";
 import "./styles.scss";
 
-const Index = () =>
+const Services = () =>
 	<>
 		<Helmet>
 			<meta charset="UTF-8" />
@@ -19,15 +16,13 @@ const Index = () =>
 			<meta name="keywords" content="" />
 			<meta name="author" content="Richard Antao" />
 			<meta name="application-name" content="Stone House Contracting Ltd." />
-			<title>Home</title>
+			<title>Services</title>
 		</Helmet>
 		<Nav />
-		<main id="home" role="main">
-			{/* <Carousel>
-					{images.map(({ original }) => <img src={original} />)}
-				</Carousel> */}
+		<main id="services" role="main">
+			Services Page
 		</main>
 		<Footer />
-	</>;
+	</>
 
-export default Index;
+export default Services;
