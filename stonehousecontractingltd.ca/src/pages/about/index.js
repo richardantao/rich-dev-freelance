@@ -20,7 +20,12 @@ const About = () =>
 		</Helmet>
 		<Nav />
 		<main id="about" role="main">
-			About Page
+			<div>
+				about description here
+			</div>
+			<div>
+				image here
+			</div>
 		</main>
 		<Footer />
 	</>

@@ -1,5 +1,19 @@
 
 #about {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+
+	div {
+		align-items: center;
+		background-color: pink;
+		display: flex;
+		flex: 1;
+		height: 600px; // TODO: Remove temp
+		justify-content: center;
+	}
+
 	@media screen and (min-width: 576px) {
 
 	}
