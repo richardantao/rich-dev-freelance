@@ -5,17 +5,42 @@
 		margin: 2rem 0;
 	}
 
-	#design {
+	&-grid {
+		width: 100%;
 
+		section {
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+			margin: 0;
+
+			div {
+				height: 400px; // TODO: Remove temp
+			}
+
+			.services-description {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				flex: 1;
+				justify-content: center;
+
+				img {
+					height: 3rem;
+					width: 3rem;
+				}
+			}
+
+			.services-image {
+				align-items: center;
+				display: flex;
+				flex: 1;
+				justify-content: center;
+			}
+		}
 	}
 
-	#build {
 
-	}
-
-	#landscaping {
-
-	}
 
 	@media screen and (min-width: 576px) {
 
