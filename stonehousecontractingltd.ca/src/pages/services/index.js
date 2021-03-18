@@ -1,23 +1,12 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-/* Assets */
-import designIcon from "images/design-icon.png";
-import buildIcon from "images/build-icon.png";
-import landscapeIcon from "images/landscape-icon.png";
-
-import designImage from "images/services-design.jpg";
-import buildImage from "images/services-build.jpg";
-import landscapeImage from "images/services-landscape.jpg";
-
 /* Components */
 import Page from "templates/Page";
 
 /* Styles */
 import "styles/global.scss";
 import "./styles.scss";
-
-const REM = 16;
 
 const Services = () =>
 	<Page
@@ -38,44 +27,78 @@ const Services = () =>
 		<div id="services-grid">
 			<section id="design">
 				<div className="services-description">
-					<StaticImage src="../../images/design-icon.png" placeholder="blurred" alt="" height={3 * REM} width={3 * REM} />
+					<StaticImage
+						src="../../images/design-icon.png"
+						alt=""
+						placeholder="blurred"
+						className="icon-wrapper"
+						imgClassName="icon"
+					/>
 					<h3>Design</h3>
 					<p>
 						description
-						</p>
+					</p>
 					<a href="/gallery">Design</a>
 				</div>
 				<div className="services-image">
-					<StaticImage src={designImage} height={200} width={200} />
+					<StaticImage
+						src="../../images/services-design.jpg"
+						alt=""
+						placeholder="blurred"
+					/>
 				</div>
 			</section>
 			<section id="build">
 				<div className="services-image">
-					<StaticImage src={buildImage} />
+					<StaticImage
+						src="../../images/services-build.jpg"
+						alt=""
+						placeholder="blurred"
+					/>
 				</div>
 				<div className="services-description">
-					<StaticImage src={buildIcon} alt="" />
-					<h3>Build</h3>
-					<p>
-						description
-					</p>
-					<a href="/gallery">Build</a>
+					<div className="services-decription-content">
+						<StaticImage
+							src="../../images/build-icon.png"
+							alt=""
+							placeholder="blurred"
+							className="icon-wrapper"
+							imgClassName="icon"
+						/>
+						<h3>Build</h3>
+						<p>
+							description
+						</p>
+						<a href="/gallery">Build</a>
+					</div>
 				</div>
 			</section>
 			<section id="landscaping">
 				<div className="services-description">
-					<StaticImage src={landscapeIcon} alt="" />
-					<h3>Landscaping</h3>
-					<p>
-						description
-					</p>
-					<a href="/gallery">Landscaping</a>
+					<div className="services-decription-content">
+						<StaticImage
+							src="../../images/landscape-icon.png"
+							alt=""
+							placeholder="blurred"
+							className="icon-wrapper"
+							imgClassName="icon"
+						/>
+						<h3>Landscaping</h3>
+						<p>
+							description
+						</p>
+						<a href="/gallery">Landscaping</a>
+					</div>
 				</div>
 				<div className="services-image">
-					<StaticImage src={landscapeImage} />
+					<StaticImage
+						src="../../images/services-landscape.jpg"
+						alt=""
+						placeholder="blurred"
+					/>
 				</div>
 			</section>
 		</div>
-	</Page>;
+	</Page >;
 
 export default Services;

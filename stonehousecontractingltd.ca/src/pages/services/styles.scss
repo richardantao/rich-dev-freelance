@@ -14,21 +14,12 @@
 			justify-content: space-between;
 			margin: 0;
 
-			div {
-				height: 400px; // TODO: Remove temp
-			}
-
 			.services-description {
 				align-items: center;
 				display: flex;
-				flex-direction: column;
 				flex: 1;
+				flex-direction: column;
 				justify-content: center;
-
-				img {
-					height: 3rem;
-					width: 3rem;	
-				}
 			}
 
 			.services-image {
@@ -42,6 +33,20 @@
 					height: 100%;
 					width: 100%;
 				}
+			}
+
+			.icon-wrapper {
+				align-items: center;
+				display: flex;
+				flex: 1;
+				height: 3rem;
+				justify-content: center;
+				width: 3rem;
+			}
+
+			.icon {
+				height: 3rem;
+				width: 3rem;
 			}
 		}
 	}
